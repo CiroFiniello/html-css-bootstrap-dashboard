@@ -1,0 +1,22 @@
+.ms_head {
+    width: 100%;
+    height: 50px;
+    border: 3px solid blue;
+    display: flex;
+}
+aside{
+    height: calc(100vh - 50px);
+    width: 50px;
+    border: 3px solid;
+    display: inline-block;
+    order: 0;
+}
+.wata{
+    border: 3px solid orange;
+    width: 500px;
+    height: calc(100vh - 50px); 
+    display: inline-block;   
+}
+div[class^='col-']{
+    border: 3px solid purple;
+}

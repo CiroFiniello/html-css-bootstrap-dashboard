@@ -6,17 +6,17 @@
 }
 aside{
     height: calc(100vh - 50px);
-    width: 50px;
+    width: 80px;
     border: 3px solid;
     display: inline-block;
     order: 0;
 }
-.wata{
+.ms_container{
     border: 3px solid orange;
-    width: 500px;
+    width: calc(100% - 85px);
     height: calc(100vh - 50px); 
     display: inline-block;   
 }
 div[class^='col-']{
-    border: 3px solid purple;
+    border: 1px solid purple;
 }

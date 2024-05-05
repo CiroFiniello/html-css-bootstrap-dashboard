@@ -14,10 +14,42 @@
 <body>
     <header>
         <div class="ms_head">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand">Navbar</a>
+                    <form class="d-flex col" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
         </div> 
     </header>
     <main class="d-flex w-100">
-        <aside></aside>
+        <aside class="d-flex">
+            <div class="list-aside d-flex flex-column justify-content-between">
+                <ul class=" list-group">
+                    <li>
+                        <p>
+                            Home
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Stats
+                        </p>
+                    </li>
+                    <li>
+                        <p>Signals</p>
+                    </li>
+                </ul>
+                <ul class="list-group">
+                    <li>
+                        <p>Admin</p>
+                    </li>
+                </ul>
+            </div>
+        </aside>
         <div class="ms_container">
             <div class="container-fluid">
                 <div class="row">

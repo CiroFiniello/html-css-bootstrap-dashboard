@@ -20,11 +20,19 @@ aside{
     display: inline-block;   
 }
 div[class^='col-']{
-    border: 1px solid purple;
+    border: 1px solid grey;
 }
 .hd_li_box ul{
     list-style: none;
 }
 .ms_btn{
     background-color: blue;
+}
+.classe{
+    display: flex;
+    align-items: inherit;
+    gap: 0.1rem;
+}
+.classe::before{ 
+    content: url(../img/class-avatar2.png);
 }

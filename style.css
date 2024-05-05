@@ -14,7 +14,6 @@ aside{
     display: inline-block;
 }
 .ms_container{
-    border: 3px solid orange;
     width: calc(100% - 85px);
     height: calc(100vh - 50px); 
     display: inline-block;   
@@ -35,4 +34,12 @@ div[class^='col-']{
 }
 .classe::before{ 
     content: url(../img/class-avatar2.png);
+}
+
+@media screen and (min-width: 762px) {
+    aside{
+        height: calc(100vh - 50px);
+        width: 300px;
+        display: inline-block;
+    }
 }
